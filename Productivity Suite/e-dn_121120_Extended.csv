@@ -1,0 +1,780 @@
+## System ID,Tag Name,Retentive Mode,Initial Value,MODBUS Start Address,MODBUS End Address,Number of Characters,Number of Rows,Number of Columns,Wiring Label,Comment,Forceable,Init Forced,Init Force Value,Remote Access,I/O Address,Data Type,Structure Type,BOW Details,UDS Name,UDS Field Name,UDS Field Type,UDS Field Struct Type,UDS Comment
+## 4.0
+,,,,,,,,,,,,,,,,,,,"weatherEntry",,,,
+,,,,,,,,,,,,,,,,,,,"weatherEntry","ID","S16",,
+,,,,,,,,,,,,,,,,,,,"weatherEntry","Main","STR",,
+,,,,,,,,,,,,,,,,,,,"weatherEntry","Description","STR",,
+,,,,,,,,,,,,,,,,,,,"weatherLookup",,,,
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w200","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w201","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w202","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w210","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w211","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w212","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w221","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w230","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w231","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w232","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w300","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w301","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w302","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w310","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w311","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w312","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w313","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w314","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w321","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w500","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w501","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w502","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w503","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w504","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w511","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w520","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w521","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w522","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w531","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w701","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w711","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w721","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w731","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w741","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w751","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w761","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w762","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w771","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w781","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w800","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w801","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w802","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w803","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"weatherLookup","w804","USTRUC","weatherEntry",
+,,,,,,,,,,,,,,,,,,,"CurrWeather",,,,
+,,,,,,,,,,,,,,,,,,,"CurrWeather","OutsideTemp","US16",,
+,,,,,,,,,,,,,,,,,,,"CurrWeather","OutsideHumidity","US16",,
+,,,,,,,,,,,,,,,,,,,"CurrWeather","FeelsLikeTemp","US16",,
+,,,,,,,,,,,,,,,,,,,"CurrWeather","MaxTemp","US16",,
+,,,,,,,,,,,,,,,,,,,"CurrWeather","MinTemp","US16",,
+,,,,,,,,,,,,,,,,,,,"CurrWeather","WindDir","US16",,
+,,,,,,,,,,,,,,,,,,,"CurrWeather","WindSpeed","US16",,
+,,,,,,,,,,,,,,,,,,,"CurrWeather","Description","US8",,
+SBR-001008,"1 Minute Bit",false,"False",,,,,,,"On for 30 seconds and Off for 30 seconds",,,,false,,"SBR",,false
+SBR-001009,"2 Second Bit",false,"False",,,,,,,"On for 1 second and Off for 1 second",,,,false,,"SBR",,false
+S32-000026,"ABS_MAX_TEMP",true,"8000",,,,,,,,false,false,"0",false,,"S32",,false
+AIS32-0.1.3.1,"AIS32-0.1.3.1",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.3.1","AIS32",,false
+AIS32-0.1.3.2,"AIS32-0.1.3.2",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.3.2","AIS32",,false
+AIS32-0.1.3.3,"AIS32-0.1.3.3",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.3.3","AIS32",,false
+AIS32-0.1.3.4,"AIS32-0.1.3.4",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.3.4","AIS32",,false
+AIS32-0.1.3.5,"AIS32-0.1.3.5",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.3.5","AIS32",,false
+AIS32-0.1.3.6,"AIS32-0.1.3.6",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.3.6","AIS32",,false
+AIS32-0.1.3.7,"AIS32-0.1.3.7",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.3.7","AIS32",,false
+AIS32-0.1.3.8,"AIS32-0.1.3.8",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.3.8","AIS32",,false
+C-000015,"Airflow1",false,"False",000003,000003,,,,,,false,false,"False",false,,"C",,false
+C-000014,"Airpump1",false,"False",000002,000002,,,,,,false,false,"False",false,,"C",,false
+SBR-001002,"Always Off Bit",false,"False",,,,,,,"always off",,,,false,,"SBR",,false
+SBR-001017,"Array out of range error",false,"False",,,,,,,"On if an array index is outside the range of the array",,,,false,,"SBR",,false
+SWR-001514,"Array range error rung location",false,"0",,,,,,,"Rung Number in which ""Array out of range error"" occurred",,,,false,,"SWR",,false
+SWR-001513,"Array range error task location",false,"0",,,,,,,"Task Number in which ""Array out of range error"" occurred",,,,false,,"SWR",,false
+SWR-001506,"Avg Logic Scan Time [x100=usec]",false,"0",,,,,,,"average logic scan time",,,,false,,"SWR",,false
+SWR-001503,"Avg Scan Interval [x100=usec]",false,"0",,,,,,,"average overall scan time",,,,false,,"SWR",,false
+SBR-001006,"Battery Disabled",false,"False",,,,,,,"On if the ""CPU Battery Alarm"" is disabled in H/W Configuration",,,,false,,"SBR",,false
+SBR-001005,"Battery Low Bit",false,"False",,,,,,,"On if the battery is weak (""CPU Battery Alarm"" in H/W Configuration)",,,,false,,"SBR",,false
+SWR-001518,"Battery Voltage",false,"0",,,,,,,"battery voltage in 10ths of a volt",,,,false,,"SWR",,false
+C-000023,"BeginHeating",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000026,"BeginHumidifier",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000009,"C1",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+SSTR-000041,"CPU Event Log String 01",false,,,,50,,,,"most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000042,"CPU Event Log String 02",false,,,,50,,,,"2nd most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000043,"CPU Event Log String 03",false,,,,50,,,,"3rd most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000044,"CPU Event Log String 04",false,,,,50,,,,"4th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000045,"CPU Event Log String 05",false,,,,50,,,,"5th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000046,"CPU Event Log String 06",false,,,,50,,,,"6th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000047,"CPU Event Log String 07",false,,,,50,,,,"7th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000048,"CPU Event Log String 08",false,,,,50,,,,"8th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000049,"CPU Event Log String 09",false,,,,50,,,,"9th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000050,"CPU Event Log String 10",false,,,,50,,,,"10th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000051,"CPU Event Log String 11",false,,,,50,,,,"11th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000052,"CPU Event Log String 12",false,,,,50,,,,"12th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000053,"CPU Event Log String 13",false,,,,50,,,,"13th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000054,"CPU Event Log String 14",false,,,,50,,,,"14th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000055,"CPU Event Log String 15",false,,,,50,,,,"15th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000056,"CPU Event Log String 16",false,,,,50,,,,"16th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000057,"CPU Event Log String 17",false,,,,50,,,,"17th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000058,"CPU Event Log String 18",false,,,,50,,,,"18th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000059,"CPU Event Log String 19",false,,,,50,,,,"19th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000060,"CPU Event Log String 20",false,,,,50,,,,"20th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000101,"CPU Model Name",false,,,,50,,,,"CPU Model (ex: ""P3-550"")",,,,false,,"SSTR",,false
+SSTR-000102,"CPU Program File Name",false,,,,50,,,,"CPU program file name",,,,false,,"SSTR",,false
+SBR-001001,"CPU in Run",false,"False",,,,,,,"On during Run or Debug mode",,,,false,,"SBR",,false
+C-000059,"Change_TMR_VAL",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+SWR-001523,"Clock Day",false,"0",,,,,,,"current Real Time Clock Calendar Day",,,,false,,"SWR",,false
+SWRW-001754,"Clock Day Set",false,"0",,,,,,,"new Real Time Clock Day (set all 3 date values then set ""Initiate_New_Date"" on)",,,,false,,"SWRW",,false
+SWR-001522,"Clock Day of Week",false,"0",,,,,,,"current Real Time Clock Day of the week (1=Mon ...7=Sun)",,,,false,,"SWR",,false
+SWR-001521,"Clock Hours",false,"0",,,,,,,"current Real Time Clock Hours",,,,false,,"SWR",,false
+SWRW-001753,"Clock Hours Set",false,"0",,,,,,,"new Real Time Clock Hours (set all 3 time values then set ""Initiate_New_Time"" on)",,,,false,,"SWRW",,false
+SWR-001520,"Clock Minutes",false,"0",,,,,,,"current Real Time Clock Minutes",,,,false,,"SWR",,false
+SWRW-001752,"Clock Minutes Set",false,"0",,,,,,,"new Real Time Clock Minutes (set all 3 time values then set ""Initiate_New_Time"" on)",,,,false,,"SWRW",,false
+SWR-001524,"Clock Month",false,"0",,,,,,,"current Real Time Clock Calendar Month",,,,false,,"SWR",,false
+SWRW-001755,"Clock Month Set",false,"0",,,,,,,"new Real Time Clock Month (set all 3 date values then set ""Initiate_New_Date"" on)",,,,false,,"SWRW",,false
+SWR-001519,"Clock Seconds",false,"0",,,,,,,"current Real Time Clock Seconds",,,,false,,"SWR",,false
+SWRW-001751,"Clock Seconds Set",false,"0",,,,,,,"new Real Time Clock Seconds (set all 3 time values then set ""Initiate_New_Time"" on)",,,,false,,"SWRW",,false
+SWR-001525,"Clock Year",false,"0",,,,,,,"current Real Time Clock Calendar Year",,,,false,,"SWR",,false
+SWRW-001756,"Clock Year Set",false,"0",,,,,,,"new Real Time Clock Year (set all 3 date values then set ""Initiate_New_Date"" on)",,,,false,,"SWRW",,false
+SBR-001012,"Critical Error Bit",false,"False",,,,,,,"On when a critical error is active",,,,false,,"SBR",,false
+SWR-000001,"Critical Error Log 01",false,"0",,,,,,,"most recent critical error",,,,false,,"SWR",,false
+SWR-000002,"Critical Error Log 02",false,"0",,,,,,,"2nd most recent critical error",,,,false,,"SWR",,false
+SWR-000003,"Critical Error Log 03",false,"0",,,,,,,"3rd most recent critical error",,,,false,,"SWR",,false
+SWR-000004,"Critical Error Log 04",false,"0",,,,,,,"4th most recent critical error",,,,false,,"SWR",,false
+SWR-000005,"Critical Error Log 05",false,"0",,,,,,,"5th most recent critical error",,,,false,,"SWR",,false
+SWR-000006,"Critical Error Log 06",false,"0",,,,,,,"6th most recent critical error",,,,false,,"SWR",,false
+SWR-000007,"Critical Error Log 07",false,"0",,,,,,,"7th most recent critical error",,,,false,,"SWR",,false
+SWR-000008,"Critical Error Log 08",false,"0",,,,,,,"8th most recent critical error",,,,false,,"SWR",,false
+SWR-000009,"Critical Error Log 09",false,"0",,,,,,,"9th most recent critical error",,,,false,,"SWR",,false
+SWR-000010,"Critical Error Log 10",false,"0",,,,,,,"10th most recent critical error",,,,false,,"SWR",,false
+SWR-000011,"Critical Error Log 11",false,"0",,,,,,,"11th most recent critical error",,,,false,,"SWR",,false
+SWR-000012,"Critical Error Log 12",false,"0",,,,,,,"12th most recent critical error",,,,false,,"SWR",,false
+SWR-000013,"Critical Error Log 13",false,"0",,,,,,,"13th most recent critical error",,,,false,,"SWR",,false
+SWR-000014,"Critical Error Log 14",false,"0",,,,,,,"14th most recent critical error",,,,false,,"SWR",,false
+SWR-000015,"Critical Error Log 15",false,"0",,,,,,,"15th most recent critical error",,,,false,,"SWR",,false
+SWR-000016,"Critical Error Log 16",false,"0",,,,,,,"16th most recent critical error",,,,false,,"SWR",,false
+SWR-000017,"Critical Error Log 17",false,"0",,,,,,,"17th most recent critical error",,,,false,,"SWR",,false
+SWR-000018,"Critical Error Log 18",false,"0",,,,,,,"18th most recent critical error",,,,false,,"SWR",,false
+SWR-000019,"Critical Error Log 19",false,"0",,,,,,,"19th most recent critical error",,,,false,,"SWR",,false
+SWR-000020,"Critical Error Log 20",false,"0",,,,,,,"20th most recent critical error",,,,false,,"SWR",,false
+SSTR-000001,"Critical Error Log String 01",false,,,,50,,,,"most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000002,"Critical Error Log String 02",false,,,,50,,,,"2nd most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000003,"Critical Error Log String 03",false,,,,50,,,,"3rd most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000004,"Critical Error Log String 04",false,,,,50,,,,"4th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000005,"Critical Error Log String 05",false,,,,50,,,,"5th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000006,"Critical Error Log String 06",false,,,,50,,,,"6th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000007,"Critical Error Log String 07",false,,,,50,,,,"7th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000008,"Critical Error Log String 08",false,,,,50,,,,"8th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000009,"Critical Error Log String 09",false,,,,50,,,,"9th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000010,"Critical Error Log String 10",false,,,,50,,,,"10th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000011,"Critical Error Log String 11",false,,,,50,,,,"11th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000012,"Critical Error Log String 12",false,,,,50,,,,"12th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000013,"Critical Error Log String 13",false,,,,50,,,,"13th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000014,"Critical Error Log String 14",false,,,,50,,,,"14th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000015,"Critical Error Log String 15",false,,,,50,,,,"15th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000016,"Critical Error Log String 16",false,,,,50,,,,"16th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000017,"Critical Error Log String 17",false,,,,50,,,,"17th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000018,"Critical Error Log String 18",false,,,,50,,,,"18th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000019,"Critical Error Log String 19",false,,,,50,,,,"19th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000020,"Critical Error Log String 20",false,,,,50,,,,"20th most recent critical error message",,,,false,,"SSTR",,false
+SWR-001510,"Current Critical Error",false,"0",,,,,,,"current critical error number",,,,false,,"SWR",,false
+SWR-001516,"Current I/O Config Error Base",false,"0",,,,,,,"I/O base in which ""I/O Configuration Error"" occurred",,,,false,,"SWR",,false
+SWR-001515,"Current I/O Config Error Group",false,"0",,,,,,,"I/O group in which ""I/O Configuration Error"" occurred",,,,false,,"SWR",,false
+SWR-001517,"Current I/O Config Error Slot",false,"0",,,,,,,"I/O slot in which ""I/O Configuration Error"" occurred",,,,false,,"SWR",,false
+SWR-001511,"Current Non-critical Error",false,"0",,,,,,,"current noncritical error number",,,,false,,"SWR",,false
+USTRUC-000001,"CurrentWeather",false,,,,,,,,,,,,false,,"USTRUC","CurrWeather",false
+US8-000001,"CurrentWeather.Description",false,"0",400017,400017,,,,,,false,false,"0",false,,"US8","CurrWeather",false
+US16-000015,"CurrentWeather.FeelsLikeTemp",false,"0",400012,400012,,,,,,false,false,"0",false,,"US16","CurrWeather",false
+US16-000016,"CurrentWeather.MaxTemp",false,"0",400013,400013,,,,,,false,false,"0",false,,"US16","CurrWeather",false
+US16-000017,"CurrentWeather.MinTemp",false,"0",400014,400014,,,,,,false,false,"0",false,,"US16","CurrWeather",false
+US16-000014,"CurrentWeather.OutsideHumidity",false,"0",400011,400011,,,,,,false,false,"0",false,,"US16","CurrWeather",false
+US16-000013,"CurrentWeather.OutsideTemp",false,"0",400010,400010,,,,,,false,false,"0",false,,"US16","CurrWeather",false
+US16-000018,"CurrentWeather.WindDir",false,"0",400015,400015,,,,,,false,false,"0",false,,"US16","CurrWeather",false
+US16-000019,"CurrentWeather.WindSpeed",false,"0",400016,400016,,,,,,false,false,"0",false,,"US16","CurrWeather",false
+S16-000052,"DAY_HUM_MAX",true,"6000",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000053,"DAY_HUM_MIN",true,"5500",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000054,"DAY_TEMP_MAX",true,"7500",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000055,"DAY_TEMP_MIN",true,"7000",,,,,,,,false,false,"0",false,,"S16",,false
+US16-000010,"DECIMAL_CONVERT",true,"2",,,,,,,,true,true,"2",false,,"US16",,false
+DI-0.1.2.13,"DI-0.1.2.13",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.13","DI",,false
+DI-0.1.2.14,"DI-0.1.2.14",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.14","DI",,false
+DI-0.1.2.15,"DI-0.1.2.15",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.15","DI",,false
+DI-0.1.2.16,"DI-0.1.2.16",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.16","DI",,false
+US16-000021,"DateCurrentCount",false,"1",,,,,,,,false,false,"0",false,,"US16",,false
+US16-000022,"Date_LoopCount",false,"6",,,,,,,,false,false,"0",false,,"US16",,false
+SWR-001526,"Ethernet Speed [External]",false,"0",,,,,,,"""Ethernet"" port speed (Ethernet 10 or 100)",,,,false,,"SWR",,false
+SWR-001527,"Ethernet Speed [Internal]",false,"0",,,,,,,"""Remote I/O"" port speed (Ethernet 10 or 100)",,,,false,,"SWR",,false
+SBR-001004,"Every Other Scan Bit",false,"False",,,,,,,"toggles at the start of each scan",,,,false,,"SBR",,false
+SWR-001509,"Firmware Version",false,"0",,,,,,,"CPU Firmware Version Number in Hex (ex: 0x0102 is version 01.02 or 1.2)",,,,false,,"SWR",,false
+SSTR-000104,"Firmware Version[CPU]",false,,,,50,,,,"CPU firmware version viewed as 001.000.009.023",,,,false,,"SSTR",,false
+SWR-001528,"Firmware Version[major]",false,"0",,,,,,,"CPU firmware Major version number in hex. (ex:  0x0100 =  major version 1.0)",,,,false,,"SWR",,false
+SWR-001529,"Firmware Version[minor]",false,"0",,,,,,,"CPU firmware Minor version number in hex. (ex: 0x0917 = minor version 9.23)",,,,false,,"SWR",,false
+SBR-001003,"First Scan Bit",false,"False",,,,,,,"On during first scan in Run or Debug mode",,,,false,,"SBR",,false
+SWR-001530,"First Scan Interval [x100=usec]",false,"0",,,,,,,"Holds the value of the First Scan time",,,,false,,"SWR",,false
+SBR-001007,"Forces Enabled",false,"False",,,,,,,"On if any forces are enabled",,,,false,,"SBR",,false
+C-000030,"FuncTMRDone",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000013,"Heatpads1",false,"False",000001,000001,,,,,,false,false,"False",false,,"C",,false
+US16-000023,"HourCurrentCount",false,"1",,,,,,,,false,false,"0",false,,"US16",,false
+US16-000007,"Humidity",false,"0",400006,400006,,,,,,false,false,"0",false,,"US16",,false
+US16-000006,"Humidity_Decimal",false,"0",400007,400007,,,,,,false,false,"0",false,,"US16",,false
+SBR-001015,"I/O Configuration Error",false,"False",,,,,,,"On if actual I/O configuration and project I/O configuration do not match",,,,false,,"SBR",,false
+SBR-001014,"I/O Error",false,"False",,,,,,,"On for any module error (such as a blown fuse)",,,,false,,"SBR",,false
+C-000034,"IN1",false,"False",,,,,,,,false,false,"False",false,,"DI",,false
+SWRW-001758,"Identify Module Base Number",false,"0",,,,,,,"base number of module to be identified (See ""Requested Module Name"" tag)",,,,false,,"SWRW",,false
+SWRW-001757,"Identify Module Group Number",false,"0",,,,,,,"group number of module to be identified (See ""Requested Module Name"" tag)",,,,false,,"SWRW",,false
+SBRW-001005,"Identify Module Request bit",false,"False",,,,,,,"set On to refresh ""Requested Module Name"" tag per the 3 ""Identify"" GBS tags",,,,false,,"SBRW",,false
+SWRW-001759,"Identify Module Slot Number",false,"0",,,,,,,"slot number of module to be identified (See ""Requested Module Name"" tag)",,,,false,,"SWRW",,false
+SBRW-001002,"Initiate_New_Date",false,"False",,,,,,,"set On to change clock date (see ""Clock Year Set"" tag)",,,,false,,"SBRW",,false
+SBRW-001001,"Initiate_New_Time",false,"False",,,,,,,"set On to change clock time (see ""Clock Hours Set"" tag)",,,,false,,"SBRW",,false
+SWR-001504,"Last Logic Scan Time [x100=usec]",false,"0",,,,,,,"most recent logic scan time",,,,false,,"SWR",,false
+SWR-001501,"Last Scan Interval [x100=usec]",false,"0",,,,,,,"most recent overall scan time",,,,false,,"SWR",,false
+S32-000002,"MAX_HUM",false,"7500",,,,,,,,false,false,"0",false,,"S32",,false
+US16-000012,"MAX_TEMP",false,"7200",,,,,,,,false,false,"0",false,,"US16",,false
+S32-000001,"MIN_HUM",false,"6900",,,,,,,,false,false,"0",false,,"S32",,false
+US16-000011,"MIN_TEMP",false,"6900",,,,,,,,false,false,"0",false,,"US16",,false
+S16-000003,"MQTT_Test",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+MST-0.1.3.25,"MST-0.1.3.25",false,"False",,,,,,,"Module Failed",false,false,"False",false,"MST-0.1.3.25","MST",,false
+MST-0.1.3.26,"MST-0.1.3.26",false,"False",,,,,,,"Missing 24V",false,false,"False",false,"MST-0.1.3.26","MST",,false
+MST-0.1.3.57,"MST-0.1.3.57",false,"False",,,,,,,"Under Range Error (1)",false,false,"False",false,"MST-0.1.3.57","MST",,false
+MST-0.1.3.58,"MST-0.1.3.58",false,"False",,,,,,,"Under Range Error (2)",false,false,"False",false,"MST-0.1.3.58","MST",,false
+MST-0.1.3.59,"MST-0.1.3.59",false,"False",,,,,,,"Under Range Error (3)",false,false,"False",false,"MST-0.1.3.59","MST",,false
+MST-0.1.3.60,"MST-0.1.3.60",false,"False",,,,,,,"Under Range Error (4)",false,false,"False",false,"MST-0.1.3.60","MST",,false
+MST-0.1.3.61,"MST-0.1.3.61",false,"False",,,,,,,"Under Range Error (5)",false,false,"False",false,"MST-0.1.3.61","MST",,false
+MST-0.1.3.62,"MST-0.1.3.62",false,"False",,,,,,,"Under Range Error (6)",false,false,"False",false,"MST-0.1.3.62","MST",,false
+MST-0.1.3.63,"MST-0.1.3.63",false,"False",,,,,,,"Under Range Error (7)",false,false,"False",false,"MST-0.1.3.63","MST",,false
+MST-0.1.3.64,"MST-0.1.3.64",false,"False",,,,,,,"Under Range Error (8)",false,false,"False",false,"MST-0.1.3.64","MST",,false
+MST-0.1.3.89,"MST-0.1.3.89",false,"False",,,,,,,"Over Range Error (1)",false,false,"False",false,"MST-0.1.3.89","MST",,false
+MST-0.1.3.90,"MST-0.1.3.90",false,"False",,,,,,,"Over Range Error (2)",false,false,"False",false,"MST-0.1.3.90","MST",,false
+MST-0.1.3.91,"MST-0.1.3.91",false,"False",,,,,,,"Over Range Error (3)",false,false,"False",false,"MST-0.1.3.91","MST",,false
+MST-0.1.3.92,"MST-0.1.3.92",false,"False",,,,,,,"Over Range Error (4)",false,false,"False",false,"MST-0.1.3.92","MST",,false
+MST-0.1.3.93,"MST-0.1.3.93",false,"False",,,,,,,"Over Range Error (5)",false,false,"False",false,"MST-0.1.3.93","MST",,false
+MST-0.1.3.94,"MST-0.1.3.94",false,"False",,,,,,,"Over Range Error (6)",false,false,"False",false,"MST-0.1.3.94","MST",,false
+MST-0.1.3.95,"MST-0.1.3.95",false,"False",,,,,,,"Over Range Error (7)",false,false,"False",false,"MST-0.1.3.95","MST",,false
+MST-0.1.3.96,"MST-0.1.3.96",false,"False",,,,,,,"Over Range Error (8)",false,false,"False",false,"MST-0.1.3.96","MST",,false
+S16-000050,"ModHum",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000051,"ModTemp",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+SSTRUC-000001,"ModbusComm",false,,,,,,,,"System Structure for Modbus Read",,,,false,,"SSTRUC","MRX",false
+C-000074,"ModbusComm.Complete",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000076,"ModbusComm.Error",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+STR-000091,"ModbusComm.ExcResponse",false,,,,15,,,,,,,,false,,"STR","MRX",false
+C-000073,"ModbusComm.InProgress",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000075,"ModbusComm.Success",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000077,"ModbusComm.Timeout",false,"False",,,,,,,,false,false,"False",false,,"C","MRX",false
+C-000078,"ModbusReq",false,"False",,,,,,,,true,false,"False",false,,"C",,false
+S16-000056,"NIGHT_HUM_MAX",true,"5000",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000057,"NIGHT_HUM_MIN",true,"5500",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000058,"NIGHT_TEMP_MAX",true,"7000",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000059,"NIGHT_TEMP_MIN",true,"6500",,,,,,,,false,false,"0",false,,"S16",,false
+SBR-001013,"Noncritical Error Bit",false,"False",,,,,,,"On when a noncritical error is active",,,,false,,"SBR",,false
+SWR-000021,"Noncritical Error Log 01",false,"0",,,,,,,"most recent noncritical error",,,,false,,"SWR",,false
+SWR-000022,"Noncritical Error Log 02",false,"0",,,,,,,"2nd most recent noncritical error",,,,false,,"SWR",,false
+SWR-000023,"Noncritical Error Log 03",false,"0",,,,,,,"3rd most recent noncritical error",,,,false,,"SWR",,false
+SWR-000024,"Noncritical Error Log 04",false,"0",,,,,,,"4th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000025,"Noncritical Error Log 05",false,"0",,,,,,,"5th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000026,"Noncritical Error Log 06",false,"0",,,,,,,"6th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000027,"Noncritical Error Log 07",false,"0",,,,,,,"7th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000028,"Noncritical Error Log 08",false,"0",,,,,,,"8th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000029,"Noncritical Error Log 09",false,"0",,,,,,,"9th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000030,"Noncritical Error Log 10",false,"0",,,,,,,"10th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000031,"Noncritical Error Log 11",false,"0",,,,,,,"11th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000032,"Noncritical Error Log 12",false,"0",,,,,,,"12th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000033,"Noncritical Error Log 13",false,"0",,,,,,,"13th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000034,"Noncritical Error Log 14",false,"0",,,,,,,"14th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000035,"Noncritical Error Log 15",false,"0",,,,,,,"15th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000036,"Noncritical Error Log 16",false,"0",,,,,,,"16th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000037,"Noncritical Error Log 17",false,"0",,,,,,,"17th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000038,"Noncritical Error Log 18",false,"0",,,,,,,"18th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000039,"Noncritical Error Log 19",false,"0",,,,,,,"19th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000040,"Noncritical Error Log 20",false,"0",,,,,,,"20th most recent noncritical error",,,,false,,"SWR",,false
+SSTR-000021,"Noncritical Error Log String 01",false,,,,50,,,,"most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000022,"Noncritical Error Log String 02",false,,,,50,,,,"2nd most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000023,"Noncritical Error Log String 03",false,,,,50,,,,"3rd most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000024,"Noncritical Error Log String 04",false,,,,50,,,,"4th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000025,"Noncritical Error Log String 05",false,,,,50,,,,"5th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000026,"Noncritical Error Log String 06",false,,,,50,,,,"6th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000027,"Noncritical Error Log String 07",false,,,,50,,,,"7th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000028,"Noncritical Error Log String 08",false,,,,50,,,,"8th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000029,"Noncritical Error Log String 09",false,,,,50,,,,"9th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000030,"Noncritical Error Log String 10",false,,,,50,,,,"10th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000031,"Noncritical Error Log String 11",false,,,,50,,,,"11th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000032,"Noncritical Error Log String 12",false,,,,50,,,,"12th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000033,"Noncritical Error Log String 13",false,,,,50,,,,"13th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000034,"Noncritical Error Log String 14",false,,,,50,,,,"14th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000035,"Noncritical Error Log String 15",false,,,,50,,,,"15th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000036,"Noncritical Error Log String 16",false,,,,50,,,,"16th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000037,"Noncritical Error Log String 17",false,,,,50,,,,"17th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000038,"Noncritical Error Log String 18",false,,,,50,,,,"18th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000039,"Noncritical Error Log String 19",false,,,,50,,,,"19th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000040,"Noncritical Error Log String 20",false,,,,50,,,,"20th most recent noncritical error message",,,,false,,"SSTR",,false
+SWRW-000251,"Number of Critical Errors",false,"0",,,,,,,"number of critical errors",,,,false,,"SWRW",,false
+SWRW-000252,"Number of Non-critical Errors",false,"0",,,,,,,"number of noncritical errors",,,,false,,"SWRW",,false
+S16-000002,"OFF_Time",true,"24",,,,,,,,false,false,"22",true,,"S16",,false
+US16-000008,"OFF_Time2",true,"22",,,,,,,,false,false,"0",false,,"US16",,false
+S16-000001,"ON_Time",true,"6",,,,,,,,false,false,"7",true,,"S16",,false
+US16-000009,"ON_Time2",true,"7",,,,,,,,false,false,"0",false,,"US16",,false
+DO-0.1.1.1,"OUT1",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.1","DO",,false
+DO-0.1.1.2,"OUT2",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.2","DO",,false
+DO-0.1.1.3,"OUT3",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.3","DO",,false
+DO-0.1.1.4,"OUT4",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.4","DO",,false
+DO-0.1.1.5,"OUT5",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.5","DO",,false
+DO-0.1.1.6,"OUT6",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.6","DO",,false
+DO-0.1.1.7,"OUT7",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.7","DO",,false
+DO-0.1.1.8,"OUT8",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.1.8","DO",,false
+C-000011,"P0",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000001,"P1",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000068,"P1_ALARM",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S16-000060,"P1_TMR_CURRENT_DAY",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000061,"P1_TMR_CURRENT_HOUR",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000062,"P1_TMR_CURRENT_MIN",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+C-000037,"P1_TMR_DONE",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S32-000005,"P1_TMR_PRESET",false,"17280000",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000027,"P1_TMR_PRESET_DAY",true,"2",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000028,"P1_TMR_PRESET_HOUR",true,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000029,"P1_TMR_PRESET_MIN",true,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000018,"P1_TMR_TIMEOUT",false,"9000",,,,,,,,false,false,"0",false,,"S32",,false
+C-000064,"P1_TMR_TIMEOUT_DONE",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S32-000019,"P1_TMR_TIMEOUT_VAL",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000004,"P1_TMR_VAL",true,"16045387",,,,,,,,false,false,"0",false,,"S32",,false
+C-000002,"P2",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000069,"P2_ALARM",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S16-000063,"P2_TMR_CURRENT_DAY",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000064,"P2_TMR_CURRENT_HOUR",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000065,"P2_TMR_CURRENT_MIN",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+C-000051,"P2_TMR_DONE",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S32-000006,"P2_TMR_PRESET",false,"17280000",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000030,"P2_TMR_PRESET_DAY",true,"2",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000031,"P2_TMR_PRESET_HOUR",true,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000032,"P2_TMR_PRESET_MIN",true,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000020,"P2_TMR_TIMEOUT",false,"18000",,,,,,,,false,false,"0",false,,"S32",,false
+C-000065,"P2_TMR_TIMEOUT_DONE",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S32-000021,"P2_TMR_TIMEOUT_VAL",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000007,"P2_TMR_VAL",true,"16045387",,,,,,,,false,false,"0",false,,"S32",,false
+C-000003,"P3",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000070,"P3_ALARM",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000063,"P3_OFFSET_DONE",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S16-000066,"P3_TMR_CURRENT_DAY",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000067,"P3_TMR_CURRENT_HOUR",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000068,"P3_TMR_CURRENT_MIN",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+C-000054,"P3_TMR_DONE",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S32-000017,"P3_TMR_OFFSET",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+C-000061,"P3_TMR_OFFSET_EN",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S32-000008,"P3_TMR_PRESET",false,"17280000",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000033,"P3_TMR_PRESET_DAY",true,"2",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000034,"P3_TMR_PRESET_HOUR",true,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000035,"P3_TMR_PRESET_MIN",true,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000022,"P3_TMR_TIMEOUT",false,"44000",,,,,,,,false,false,"0",false,,"S32",,false
+C-000066,"P3_TMR_TIMEOUT_DONE",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S32-000023,"P3_TMR_TIMEOUT_VAL",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000009,"P3_TMR_VAL",true,"16045387",,,,,,,,false,false,"0",false,,"S32",,false
+C-000004,"P4",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000071,"P4_ALARM",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000062,"P4_OFFSET_DONE",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S16-000069,"P4_TMR_CURRENT_DAY",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000070,"P4_TMR_CURRENT_HOUR",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000071,"P4_TMR_CURRENT_MIN",false,"0",,,,,,,,false,false,"0",false,,"S16",,false
+C-000057,"P4_TMR_DONE",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S32-000016,"P4_TMR_OFFSET",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+C-000060,"P4_TMR_OFFSET_EN",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S32-000010,"P4_TMR_PRESET",false,"17280000",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000036,"P4_TMR_PRESET_DAY",false,"2",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000037,"P4_TMR_PRESET_HOUR",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000038,"P4_TMR_PRESET_MIN",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000024,"P4_TMR_TIMEOUT",false,"18000",,,,,,,,false,false,"0",false,,"S32",,false
+C-000067,"P4_TMR_TIMEOUT_DONE",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S32-000025,"P4_TMR_TIMEOUT_VAL",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000011,"P4_TMR_VAL",true,"16045387",,,,,,,,false,false,"0",false,,"S32",,false
+C-000005,"P5",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000006,"P6",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000007,"P7",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000008,"P8",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000012,"P_ALL",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+SWR-001505,"Peak Logic Scan Time [x100=usec]",false,"0",,,,,,,"longest logic scan time",,,,false,,"SWR",,false
+SWR-001502,"Peak Scan Interval [x100=usec]",false,"0",,,,,,,"longest overall scan time",,,,false,,"SWR",,false
+SBRW-001006,"Portable Memory Device Eject",false,"False",,,,,,,"Users set to 1(ON) and the system reset to 0 as eject is completed",,,,false,,"SBRW",,false
+SBR-000001,"Portable Memory Device Ready",false,"False",,,,,,,"PMD is installed and ready to use",,,,false,,"SBR",,false
+SWR-001512,"Program Memory Size",false,"0",,,,,,,"current percentage of CPU memory used by the project",,,,false,,"SWR",,false
+DO-0.1.4.3,"Pump1",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.4.3","DO",,false
+C-000036,"Pump1_MCTRL",false,"False",,,,,,,"pump 1 manual control",false,false,"False",false,,"C",,false
+C-000035,"Pump1_TMR",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+DO-0.1.4.4,"Pump2",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.4.4","DO",,false
+C-000058,"Pump2_MCTRL",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000050,"Pump2_TMR",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+DO-0.1.4.5,"Pump3",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.4.5","DO",,false
+C-000053,"Pump3_MCTRL",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000052,"Pump3_TMR",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+DO-0.1.4.6,"Pump4",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.4.6","DO",,false
+C-000056,"Pump4_MCTRL",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000055,"Pump4_TMR",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+DO-0.1.4.1,"Pump5",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.4.1","DO",,false
+DO-0.1.4.2,"Pump6",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.4.2","DO",,false
+DO-0.1.4.7,"Pump7",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.4.7","DO",,false
+DO-0.1.4.8,"Pump8",false,"False",,,,,,,,false,false,"False",false,"DO-0.1.4.8","DO",,false
+C-000072,"RESET_ALARMS",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000010,"RST_CTR",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+SBRW-001003,"Refresh Critical Error Log",false,"False",,,,,,,"set On to refresh the ""Critical Error Log""",,,,false,,"SBRW",,false
+SBRW-001004,"Refresh Non-Critical Error Log",false,"False",,,,,,,"set On to refresh the ""Noncritical Error Log""",,,,false,,"SBRW",,false
+SSTR-000103,"Requested Module Name",false,,,,50,,,,"name of specified module (see ""Identify Module Request bit"")",,,,false,,"SSTR",,false
+MST-0.0.0.35,"SerialPortRdy",false,"False",,,,,,,"RS485 Port Ready Bit",false,false,"False",false,"MST-0.0.0.35","MST",,false
+SBR-001010,"Switch in Run Bit",false,"False",,,,,,,"On if CPU Switch is up (Run)",,,,false,,"SBR",,false
+SBR-001011,"Switch in Stop Bit",false,"False",,,,,,,"On if CPU Switch is down (Stop)",,,,false,,"SBR",,false
+DI-0.1.2.1,"T1_Hi_LVL",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.1","DI",,false
+DI-0.1.2.2,"T1_Lo_LVL",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.2","DI",,false
+DI-0.1.2.7,"T2_Hi_Lvl",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.7","DI",,false
+DI-0.1.2.8,"T2_Lo_Lvl",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.8","DI",,false
+DI-0.1.2.11,"T3_Hi_Lvl",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.11","DI",,false
+DI-0.1.2.12,"T3_Lo_Lvl",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.12","DI",,false
+US16-000024,"Tank1_Dose",true,"8",,,,,,,,false,false,"0",false,,"US16",,false
+US16-000025,"Tank2_Dose",true,"8",,,,,,,,false,false,"0",false,,"US16",,false
+US16-000026,"Tank3_Dose",true,"4",,,,,,,,false,false,"0",false,,"US16",,false
+C-000022,"TargetTempReached",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+US16-000004,"Temperature",false,"0",400004,400004,,,,,,false,false,"0",false,,"US16",,false
+US16-000005,"Temperature_Decimal",false,"0",400005,400005,,,,,,false,false,"0",false,,"US16",,false
+SWR-001507,"Total Scan Count1",false,"0",,,,,,,"total number of scans since entering Run mode (S32 low word)",,,,false,,"SWR",,false
+SWR-001508,"Total Scan Count2",false,"0",,,,,,,"total number of scans since entering Run mode (S32 high word)",,,,false,,"SWR",,false
+DI-0.1.2.3,"Tray1WtrLvl",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.3","DI",,false
+S32-000012,"Tray1_Tank",true,"2",,,,,,,,false,false,"0",false,,"S32",,false
+DI-0.1.2.4,"Tray2WtrLvl",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.4","DI",,false
+S32-000013,"Tray2_Tank",true,"1",,,,,,,,false,false,"0",false,,"S32",,false
+DI-0.1.2.6,"Tray3WtrLvl",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.6","DI",,false
+S32-000014,"Tray3_Tank",true,"4",,,,,,,,false,false,"0",false,,"S32",,false
+DI-0.1.2.5,"Tray4WtrLvl",false,"False",,,,,,,,false,false,"False",false,"DI-0.1.2.5","DI",,false
+S32-000015,"Tray4_Tank",true,"2",,,,,,,,false,false,"0",false,,"S32",,false
+US8-000002,"Tray_Select",false,"0",,,,,,,,false,false,"0",false,,"US8",,false
+C-000040,"Was_DI-0.1.2.11",false,"False",,,,,,,,false,false,"False",false,,"DI",,false
+C-000041,"Was_DI-0.1.2.12",false,"False",,,,,,,,false,false,"False",false,,"DI",,false
+SBR-001016,"Watchdog Timeout",false,"False",,,,,,,"On if the actual scan time has exceeded the limit set in the project",,,,false,,"SBR",,false
+C-000033,"WaterManCtrl",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+STR-000089,"WeatherDesc",false,,,,15,,,,,,,,false,,"STR",,false
+USTRUC-000002,"WeatherLookup",false,,,,,,,,,,,,false,,"USTRUC","weatherLookup",false
+USTRUC-000003,"WeatherLookup.w200",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000002,"WeatherLookup.w200.Description",false,"tStrm W Lt Rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000004,"WeatherLookup.w200.ID",true,"200",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000001,"WeatherLookup.w200.Main",false,"Thunderstrom",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000004,"WeatherLookup.w201",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000004,"WeatherLookup.w201.Description",false,"tStorm w rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000005,"WeatherLookup.w201.ID",false,"201",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000003,"WeatherLookup.w201.Main",false,"Thunderstorm",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000005,"WeatherLookup.w202",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000006,"WeatherLookup.w202.Description",false,"tStrmW Hvy Rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000006,"WeatherLookup.w202.ID",false,"202",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000005,"WeatherLookup.w202.Main",false,"Thunderstorm",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000006,"WeatherLookup.w210",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000008,"WeatherLookup.w210.Description",false,"lt thunderstorm",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000007,"WeatherLookup.w210.ID",false,"210",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000007,"WeatherLookup.w210.Main",false,"Thunderstorm",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000007,"WeatherLookup.w211",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000010,"WeatherLookup.w211.Description",false,"thunderstorm",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000008,"WeatherLookup.w211.ID",false,"211",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000009,"WeatherLookup.w211.Main",false,"Thunderstorm",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000008,"WeatherLookup.w212",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000012,"WeatherLookup.w212.Description",false,"hvy thunderstrm",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000009,"WeatherLookup.w212.ID",false,"212",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000011,"WeatherLookup.w212.Main",false,"Thunderstorm",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000009,"WeatherLookup.w221",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000014,"WeatherLookup.w221.Description",false,"ragged tstrm",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000010,"WeatherLookup.w221.ID",false,"221",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000013,"WeatherLookup.w221.Main",false,"Thunderstorm",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000010,"WeatherLookup.w230",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000016,"WeatherLookup.w230.Description",false,"tstrmw lt drizl",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000011,"WeatherLookup.w230.ID",false,"230",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000015,"WeatherLookup.w230.Main",false,"Thunderstorm",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000011,"WeatherLookup.w231",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000018,"WeatherLookup.w231.Description",false,"tstrm w drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000012,"WeatherLookup.w231.ID",false,"231",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000017,"WeatherLookup.w231.Main",false,"Thunderstorm",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000012,"WeatherLookup.w232",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000020,"WeatherLookup.w232.Description",false,"tstrm Whvy drzl",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000013,"WeatherLookup.w232.ID",false,"232",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000019,"WeatherLookup.w232.Main",false,"Thunderstorm",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000013,"WeatherLookup.w300",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000022,"WeatherLookup.w300.Description",false,"light drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000014,"WeatherLookup.w300.ID",false,"300",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000021,"WeatherLookup.w300.Main",false,"Drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000014,"WeatherLookup.w301",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000024,"WeatherLookup.w301.Description",false,"drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000015,"WeatherLookup.w301.ID",false,"301",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000023,"WeatherLookup.w301.Main",false,"Drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000015,"WeatherLookup.w302",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000026,"WeatherLookup.w302.Description",false,"heavy drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000016,"WeatherLookup.w302.ID",false,"302",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000025,"WeatherLookup.w302.Main",false,"Drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000016,"WeatherLookup.w310",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000028,"WeatherLookup.w310.Description",false,"lt drizzlWrain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000017,"WeatherLookup.w310.ID",false,"310",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000027,"WeatherLookup.w310.Main",false,"Drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000017,"WeatherLookup.w311",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000030,"WeatherLookup.w311.Description",false,"drizzle rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000018,"WeatherLookup.w311.ID",false,"311",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000029,"WeatherLookup.w311.Main",false,"Drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000018,"WeatherLookup.w312",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000032,"WeatherLookup.w312.Description",false,"hvy drizlWrain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000019,"WeatherLookup.w312.ID",false,"312",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000031,"WeatherLookup.w312.Main",false,"Drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000019,"WeatherLookup.w313",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000034,"WeatherLookup.w313.Description",false,"shwrRainWdrizl",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000020,"WeatherLookup.w313.ID",false,"313",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000033,"WeatherLookup.w313.Main",false,"Drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000020,"WeatherLookup.w314",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000036,"WeatherLookup.w314.Description",false,"hvyShwrRnWdrzl",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000021,"WeatherLookup.w314.ID",false,"314",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000035,"WeatherLookup.w314.Main",false,"Drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000021,"WeatherLookup.w321",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000038,"WeatherLookup.w321.Description",false,"shwr drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000022,"WeatherLookup.w321.ID",false,"321",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000037,"WeatherLookup.w321.Main",false,"Drizzle",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000022,"WeatherLookup.w500",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000040,"WeatherLookup.w500.Description",false,"light rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000023,"WeatherLookup.w500.ID",false,"500",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000039,"WeatherLookup.w500.Main",false,"Rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000023,"WeatherLookup.w501",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000042,"WeatherLookup.w501.Description",false,"moderate rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000024,"WeatherLookup.w501.ID",false,"501",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000041,"WeatherLookup.w501.Main",false,"Rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000024,"WeatherLookup.w502",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000044,"WeatherLookup.w502.Description",false,"heavy Rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000025,"WeatherLookup.w502.ID",false,"502",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000043,"WeatherLookup.w502.Main",false,"Rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000025,"WeatherLookup.w503",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000046,"WeatherLookup.w503.Description",false,"very heavy rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000026,"WeatherLookup.w503.ID",false,"503",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000045,"WeatherLookup.w503.Main",false,"Rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000026,"WeatherLookup.w504",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000048,"WeatherLookup.w504.Description",false,"extreme rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000027,"WeatherLookup.w504.ID",false,"504",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000047,"WeatherLookup.w504.Main",false,"Rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000027,"WeatherLookup.w511",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000050,"WeatherLookup.w511.Description",false,"freezing rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000028,"WeatherLookup.w511.ID",false,"511",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000049,"WeatherLookup.w511.Main",false,"Rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000028,"WeatherLookup.w520",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000052,"WeatherLookup.w520.Description",false,"lt Shwr rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000029,"WeatherLookup.w520.ID",false,"520",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000051,"WeatherLookup.w520.Main",false,"Rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000029,"WeatherLookup.w521",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000054,"WeatherLookup.w521.Description",false,"shower rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000030,"WeatherLookup.w521.ID",false,"521",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000053,"WeatherLookup.w521.Main",false,"Rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000030,"WeatherLookup.w522",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000056,"WeatherLookup.w522.Description",false,"heavy shwr rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000031,"WeatherLookup.w522.ID",false,"522",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000055,"WeatherLookup.w522.Main",false,"Rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000031,"WeatherLookup.w531",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000058,"WeatherLookup.w531.Description",false,"ragged shwrRain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000032,"WeatherLookup.w531.ID",false,"531",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000057,"WeatherLookup.w531.Main",false,"Rain",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000032,"WeatherLookup.w701",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000060,"WeatherLookup.w701.Description",false,"mist",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000033,"WeatherLookup.w701.ID",false,"701",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000059,"WeatherLookup.w701.Main",false,"Mist",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000033,"WeatherLookup.w711",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000062,"WeatherLookup.w711.Description",false,"smoke",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000034,"WeatherLookup.w711.ID",false,"711",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000061,"WeatherLookup.w711.Main",false,"Smoke",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000034,"WeatherLookup.w721",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000064,"WeatherLookup.w721.Description",false,"haze",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000035,"WeatherLookup.w721.ID",false,"721",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000063,"WeatherLookup.w721.Main",false,"Haze",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000035,"WeatherLookup.w731",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000066,"WeatherLookup.w731.Description",false,"dust whirls",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000036,"WeatherLookup.w731.ID",false,"731",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000065,"WeatherLookup.w731.Main",false,"Dust",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000036,"WeatherLookup.w741",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000068,"WeatherLookup.w741.Description",false,"fog",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000037,"WeatherLookup.w741.ID",false,"741",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000067,"WeatherLookup.w741.Main",false,"Fog",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000037,"WeatherLookup.w751",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000070,"WeatherLookup.w751.Description",false,"sand",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000038,"WeatherLookup.w751.ID",false,"751",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000069,"WeatherLookup.w751.Main",false,"Sand",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000038,"WeatherLookup.w761",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000072,"WeatherLookup.w761.Description",false,"dust",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000039,"WeatherLookup.w761.ID",false,"761",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000071,"WeatherLookup.w761.Main",false,"Dust",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000039,"WeatherLookup.w762",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000074,"WeatherLookup.w762.Description",false,"Volcanic Ash",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000040,"WeatherLookup.w762.ID",false,"762",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000073,"WeatherLookup.w762.Main",false,"Ash",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000040,"WeatherLookup.w771",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000076,"WeatherLookup.w771.Description",false,"squalls",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000041,"WeatherLookup.w771.ID",false,"771",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000075,"WeatherLookup.w771.Main",false,"Squall",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000041,"WeatherLookup.w781",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000078,"WeatherLookup.w781.Description",false,"tornado",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000042,"WeatherLookup.w781.ID",false,"781",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000077,"WeatherLookup.w781.Main",false,"Tornado",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000042,"WeatherLookup.w800",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000080,"WeatherLookup.w800.Description",false,"clear sky",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000043,"WeatherLookup.w800.ID",false,"800",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000079,"WeatherLookup.w800.Main",false,"Clear",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000043,"WeatherLookup.w801",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000082,"WeatherLookup.w801.Description",false,"few clouds",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000044,"WeatherLookup.w801.ID",false,"801",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000081,"WeatherLookup.w801.Main",false,"Clouds",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000044,"WeatherLookup.w802",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000084,"WeatherLookup.w802.Description",false,"scatterd clouds",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000045,"WeatherLookup.w802.ID",false,"802",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000083,"WeatherLookup.w802.Main",false,"Clouds",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000045,"WeatherLookup.w803",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000086,"WeatherLookup.w803.Description",false,"broken clouds",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000046,"WeatherLookup.w803.ID",false,"803",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000085,"WeatherLookup.w803.Main",false,"Clouds",,,15,,,,,,,,false,,"STR","weatherEntry",false
+USTRUC-000046,"WeatherLookup.w804",false,,,,,,,,,,,,false,,"USTRUC","weatherEntry",false
+STR-000088,"WeatherLookup.w804.Description",false,"overcast clouds",,,15,,,,,,,,false,,"STR","weatherEntry",false
+S16-000047,"WeatherLookup.w804.ID",true,"804",,,,,,,,false,false,"0",false,,"S16","weatherEntry",false
+STR-000087,"WeatherLookup.w804.Main",false,"Clouds",,,15,,,,,,,,false,,"STR","weatherEntry",false
+STR-000090,"WeatherMain",false,,,,15,,,,,,,,false,,"STR",,false
+C-000019,"airFlowManual",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000018,"airPumpManual",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000017,"air_enableManual",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000032,"begin_For",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+S32-000003,"currentFuncTMR",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+AR1US16-000013,"daily_max_arr()",FALSE,,400062,400067,,,6,,,,,,false,,"AR1US16",
+AR1US16-000013(1),"daily_max_arr(1)",FALSE,"0",400062,400062,,,6,,,,,,false,,"AR1US16",,false
+AR1US16-000013(2),"daily_max_arr(2)",FALSE,"0",400063,400063,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000013(3),"daily_max_arr(3)",FALSE,"0",400064,400064,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000013(4),"daily_max_arr(4)",FALSE,"0",400065,400065,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000013(5),"daily_max_arr(5)",FALSE,"0",400066,400066,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000013(6),"daily_max_arr(6)",FALSE,"0",400067,400067,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000014,"daily_min_arr()",FALSE,,400068,400073,,,6,,,,,,false,,"AR1US16",
+AR1US16-000014(1),"daily_min_arr(1)",FALSE,"0",400068,400068,,,6,,,,,,false,,"AR1US16",,false
+AR1US16-000014(2),"daily_min_arr(2)",FALSE,"0",400069,400069,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000014(3),"daily_min_arr(3)",FALSE,"0",400070,400070,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000014(4),"daily_min_arr(4)",FALSE,"0",400071,400071,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000014(5),"daily_min_arr(5)",FALSE,"0",400072,400072,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000014(6),"daily_min_arr(6)",FALSE,"0",400073,400073,,,,,,,,,false,,"AR1US16",,false
+US16-000020,"forecast_MQTT",false,"0",400018,400018,,,,,,false,false,"0",false,,"US16",,false
+AR1US16-000003,"forecast_day_arr()",FALSE,,,,,,12,,,,,,false,,"AR1US16",
+AR1US16-000003(1),"forecast_day_arr(1)",FALSE,"0",,,,,12,,,,,,false,,"AR1US16",,false
+AR1US16-000003(2),"forecast_day_arr(2)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000003(3),"forecast_day_arr(3)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000003(4),"forecast_day_arr(4)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000003(5),"forecast_day_arr(5)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000003(6),"forecast_day_arr(6)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000003(7),"forecast_day_arr(7)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000003(8),"forecast_day_arr(8)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000003(9),"forecast_day_arr(9)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000003(10),"forecast_day_arr(10)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000003(11),"forecast_day_arr(11)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000003(12),"forecast_day_arr(12)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000005,"forecast_hour_arr()",FALSE,,,,,,12,,,,,,false,,"AR1US16",
+AR1US16-000005(1),"forecast_hour_arr(1)",FALSE,"0",,,,,12,,,,,,false,,"AR1US16",,false
+AR1US16-000005(2),"forecast_hour_arr(2)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000005(3),"forecast_hour_arr(3)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000005(4),"forecast_hour_arr(4)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000005(5),"forecast_hour_arr(5)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000005(6),"forecast_hour_arr(6)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000005(7),"forecast_hour_arr(7)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000005(8),"forecast_hour_arr(8)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000005(9),"forecast_hour_arr(9)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000005(10),"forecast_hour_arr(10)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000005(11),"forecast_hour_arr(11)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000005(12),"forecast_hour_arr(12)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000008,"forecast_minute_arr()",FALSE,,,,,,12,,,,,,false,,"AR1US16",
+AR1US16-000008(1),"forecast_minute_arr(1)",FALSE,"0",,,,,12,,,,,,false,,"AR1US16",,false
+AR1US16-000008(2),"forecast_minute_arr(2)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000008(3),"forecast_minute_arr(3)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000008(4),"forecast_minute_arr(4)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000008(5),"forecast_minute_arr(5)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000008(6),"forecast_minute_arr(6)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000008(7),"forecast_minute_arr(7)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000008(8),"forecast_minute_arr(8)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000008(9),"forecast_minute_arr(9)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000008(10),"forecast_minute_arr(10)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000008(11),"forecast_minute_arr(11)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000008(12),"forecast_minute_arr(12)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000002,"forecast_month_arr()",FALSE,,,,,,12,,,,,,false,,"AR1US16",
+AR1US16-000002(1),"forecast_month_arr(1)",FALSE,"0",,,,,12,,,,,,false,,"AR1US16",,false
+AR1US16-000002(2),"forecast_month_arr(2)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000002(3),"forecast_month_arr(3)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000002(4),"forecast_month_arr(4)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000002(5),"forecast_month_arr(5)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000002(6),"forecast_month_arr(6)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000002(7),"forecast_month_arr(7)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000002(8),"forecast_month_arr(8)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000002(9),"forecast_month_arr(9)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000002(10),"forecast_month_arr(10)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000002(11),"forecast_month_arr(11)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000002(12),"forecast_month_arr(12)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000004,"forecast_year_arr()",FALSE,,,,,,12,,,,,,false,,"AR1US16",
+AR1US16-000004(1),"forecast_year_arr(1)",FALSE,"0",,,,,12,,,,,,false,,"AR1US16",,false
+AR1US16-000004(2),"forecast_year_arr(2)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000004(3),"forecast_year_arr(3)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000004(4),"forecast_year_arr(4)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000004(5),"forecast_year_arr(5)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000004(6),"forecast_year_arr(6)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000004(7),"forecast_year_arr(7)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000004(8),"forecast_year_arr(8)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000004(9),"forecast_year_arr(9)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000004(10),"forecast_year_arr(10)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000004(11),"forecast_year_arr(11)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000004(12),"forecast_year_arr(12)",FALSE,"0",,,,,,,,,,,false,,"AR1US16",,false
+C-000024,"heatPadEnable",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000025,"heatPadManual",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000016,"heater",false,"False",000008,000008,,,,,,false,false,"False",false,,"C",,false
+C-000021,"heaterForceOff",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000020,"heaterManual",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+AR1US16-000016,"hourly_hum_arr()",FALSE,,400080,400085,,,6,,,,,,false,,"AR1US16",
+AR1US16-000016(1),"hourly_hum_arr(1)",FALSE,"0",400080,400080,,,6,,,,,,false,,"AR1US16",,false
+AR1US16-000016(2),"hourly_hum_arr(2)",FALSE,"0",400081,400081,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000016(3),"hourly_hum_arr(3)",FALSE,"0",400082,400082,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000016(4),"hourly_hum_arr(4)",FALSE,"0",400083,400083,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000016(5),"hourly_hum_arr(5)",FALSE,"0",400084,400084,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000016(6),"hourly_hum_arr(6)",FALSE,"0",400085,400085,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000015,"hourly_temp_arr()",FALSE,,400074,400079,,,6,,,,,,false,,"AR1US16",
+AR1US16-000015(1),"hourly_temp_arr(1)",FALSE,"0",400074,400074,,,6,,,,,,false,,"AR1US16",,false
+AR1US16-000015(2),"hourly_temp_arr(2)",FALSE,"0",400075,400075,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000015(3),"hourly_temp_arr(3)",FALSE,"0",400076,400076,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000015(4),"hourly_temp_arr(4)",FALSE,"0",400077,400077,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000015(5),"hourly_temp_arr(5)",FALSE,"0",400078,400078,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000015(6),"hourly_temp_arr(6)",FALSE,"0",400079,400079,,,,,,,,,false,,"AR1US16",,false
+C-000028,"humidiferManual",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000029,"humidifier",true,"False",000009,000009,,,,,,false,false,"False",false,,"C",,false
+C-000027,"humidifierForceOff",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+AR2US16-000003,"mqtt_daily_d()()",FALSE,,400032,400043,,2,6,,,,,,false,,"AR2US16",
+AR2US16-000003(1)(1),"mqtt_daily_d(1)(1)",FALSE,"0",400032,400032,,2,6,,,,,,false,,"AR2US16",,false
+AR2US16-000003(1)(2),"mqtt_daily_d(1)(2)",FALSE,"0",400033,400033,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000003(1)(3),"mqtt_daily_d(1)(3)",FALSE,"0",400034,400034,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000003(1)(4),"mqtt_daily_d(1)(4)",FALSE,"0",400035,400035,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000003(1)(5),"mqtt_daily_d(1)(5)",FALSE,"0",400036,400036,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000003(1)(6),"mqtt_daily_d(1)(6)",FALSE,"0",400037,400037,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000003(2)(1),"mqtt_daily_d(2)(1)",FALSE,"0",400038,400038,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000003(2)(2),"mqtt_daily_d(2)(2)",FALSE,"0",400039,400039,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000003(2)(3),"mqtt_daily_d(2)(3)",FALSE,"0",400040,400040,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000003(2)(4),"mqtt_daily_d(2)(4)",FALSE,"0",400041,400041,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000003(2)(5),"mqtt_daily_d(2)(5)",FALSE,"0",400042,400042,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000003(2)(6),"mqtt_daily_d(2)(6)",FALSE,"0",400043,400043,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004,"mqtt_hourly_d()()",FALSE,,400044,400061,,3,6,,,,,,false,,"AR2US16",
+AR2US16-000004(1)(1),"mqtt_hourly_d(1)(1)",FALSE,"0",400044,400044,,3,6,,,,,,false,,"AR2US16",,false
+AR2US16-000004(1)(2),"mqtt_hourly_d(1)(2)",FALSE,"0",400045,400045,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(1)(3),"mqtt_hourly_d(1)(3)",FALSE,"0",400046,400046,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(1)(4),"mqtt_hourly_d(1)(4)",FALSE,"0",400047,400047,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(1)(5),"mqtt_hourly_d(1)(5)",FALSE,"0",400048,400048,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(1)(6),"mqtt_hourly_d(1)(6)",FALSE,"0",400049,400049,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(2)(1),"mqtt_hourly_d(2)(1)",FALSE,"0",400050,400050,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(2)(2),"mqtt_hourly_d(2)(2)",FALSE,"0",400051,400051,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(2)(3),"mqtt_hourly_d(2)(3)",FALSE,"0",400052,400052,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(2)(4),"mqtt_hourly_d(2)(4)",FALSE,"0",400053,400053,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(2)(5),"mqtt_hourly_d(2)(5)",FALSE,"0",400054,400054,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(2)(6),"mqtt_hourly_d(2)(6)",FALSE,"0",400055,400055,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(3)(1),"mqtt_hourly_d(3)(1)",FALSE,"0",400056,400056,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(3)(2),"mqtt_hourly_d(3)(2)",FALSE,"0",400057,400057,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(3)(3),"mqtt_hourly_d(3)(3)",FALSE,"0",400058,400058,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(3)(4),"mqtt_hourly_d(3)(4)",FALSE,"0",400059,400059,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(3)(5),"mqtt_hourly_d(3)(5)",FALSE,"0",400060,400060,,,,,,,,,false,,"AR2US16",,false
+AR2US16-000004(3)(6),"mqtt_hourly_d(3)(6)",FALSE,"0",400061,400061,,,,,,,,,false,,"AR2US16",,false
+S16-000048,"mqtt_id_CurrentCount",false,"1",,,,,,,,false,false,"0",false,,"S16",,false
+S16-000049,"mqtt_id_LoopCount",false,"13",,,,,,,,false,false,"0",false,,"S16",,false
+AR1US16-000001,"mqtt_ids()",FALSE,,400019,400031,,,13,,,,,,false,,"AR1US16",
+AR1US16-000001(1),"mqtt_ids(1)",FALSE,"0",400019,400019,,,13,,,,,,false,,"AR1US16",,false
+AR1US16-000001(2),"mqtt_ids(2)",FALSE,"0",400020,400020,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000001(3),"mqtt_ids(3)",FALSE,"0",400021,400021,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000001(4),"mqtt_ids(4)",FALSE,"0",400022,400022,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000001(5),"mqtt_ids(5)",FALSE,"0",400023,400023,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000001(6),"mqtt_ids(6)",FALSE,"0",400024,400024,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000001(7),"mqtt_ids(7)",FALSE,"0",400025,400025,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000001(8),"mqtt_ids(8)",FALSE,"0",400026,400026,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000001(9),"mqtt_ids(9)",FALSE,"0",400027,400027,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000001(10),"mqtt_ids(10)",FALSE,"0",400028,400028,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000001(11),"mqtt_ids(11)",FALSE,"0",400029,400029,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000001(12),"mqtt_ids(12)",FALSE,"0",400030,400030,,,,,,,,,false,,"AR1US16",,false
+AR1US16-000001(13),"mqtt_ids(13)",FALSE,"0",400031,400031,,,,,,,,,false,,"AR1US16",,false
+C-000079,"occupyTankDose",false,"False",,,,,,,,false,false,"False",false,,"C",,false
+C-000031,"showText",false,"True",,,,,,,,false,false,"False",false,,"C",,false
+AR1STR-000001,"weather_desc_arr()",FALSE,,,,15,,13,,,,,,false,,"AR1STR",
+AR1STR-000001(1),"weather_desc_arr(1)",FALSE,,,,15,,13,,,,,,false,,"AR1STR",,false
+AR1STR-000001(2),"weather_desc_arr(2)",FALSE,,,,15,,,,,,,,false,,"AR1STR",,false
+AR1STR-000001(3),"weather_desc_arr(3)",FALSE,,,,15,,,,,,,,false,,"AR1STR",,false
+AR1STR-000001(4),"weather_desc_arr(4)",FALSE,,,,15,,,,,,,,false,,"AR1STR",,false
+AR1STR-000001(5),"weather_desc_arr(5)",FALSE,,,,15,,,,,,,,false,,"AR1STR",,false
+AR1STR-000001(6),"weather_desc_arr(6)",FALSE,,,,15,,,,,,,,false,,"AR1STR",,false
+AR1STR-000001(7),"weather_desc_arr(7)",FALSE,,,,15,,,,,,,,false,,"AR1STR",,false
+AR1STR-000001(8),"weather_desc_arr(8)",FALSE,,,,15,,,,,,,,false,,"AR1STR",,false
+AR1STR-000001(9),"weather_desc_arr(9)",FALSE,,,,15,,,,,,,,false,,"AR1STR",,false
+AR1STR-000001(10),"weather_desc_arr(10)",FALSE,,,,15,,,,,,,,false,,"AR1STR",,false
+AR1STR-000001(11),"weather_desc_arr(11)",FALSE,,,,15,,,,,,,,false,,"AR1STR",,false
+AR1STR-000001(12),"weather_desc_arr(12)",FALSE,,,,15,,,,,,,,false,,"AR1STR",,false
+AR1STR-000001(13),"weather_desc_arr(13)",FALSE,,,,15,,,,,,,,false,,"AR1STR",,false
